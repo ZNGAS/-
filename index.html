@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>貨幣轉換器</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>貨幣轉換器</h1>
+  <div class="converter">
+    <input type="number" id="amount" placeholder="金額">
+    <select id="fromCurrency"></select>
+    <button id="exchangeButton" onclick="exchangeCurrencies()">交換</button>
+    <select id="toCurrency"></select>
+    <button onclick="convert()">確定</button>
+  </div>
+  <div id="result"></div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('xdd.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+button{
+  border: none; /* 移除按鈕的邊框 */
+  border-radius: 15%;
+  width: 50px;
+  height: 40px;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 20px; /* 新增底部外邊距 */
+}
+#converterPage {
+  font-family: 'Roboto' , sans-serif;
+  padding: 0;
+  background-image: url('xdd.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 720px;
+  width: 1280PX;
+  overflow: hidden;
+  position: relative;
+  top: 0; /* 貼齊頂部 */
+  display: none;
+  border: none; /* 移除下拉式選單的邊框 */
+}
+
+#fromCurrency{
+  width: 170px;
+  height: 40px;
+  border: none;
+}
+
+#toCurrency{
+  width: 170px;
+  height: 40px;
+  border: none;
+}
+
+.converter {
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex; /* 使用 Flexbox 版面配置 */
+  align-items: center; /* 垂直居中對齊 */
+  justify-content: center; /* 水平居中對齊 */
+  text-align: center; /* 文字水平居中對齊 */
+}
+
+input, select, button {
+  margin-right: 10px;
+}
+
+#amount{
+  border-radius: 10px; /* 設定圓角 */
+  padding: 15px;
+  outline: none; /* 移除點擊時的預設邊框 */
+  border: none; /* 移除按鈕的邊框 */
+}
+
+#result{
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
